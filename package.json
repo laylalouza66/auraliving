@@ -1,0 +1,8 @@
+{
+  "name": "luxeliving-interiors",
+  "version": "1.0.0",
+  "description": "LuxeLiving Interiors — premium furniture e-commerce landing page",
+  "scripts": {
+    "build": "node -e \"const fs=require('fs');['index.html','style.css','script.js','images/README.txt'].forEach(f=>{if(!fs.existsSync(f))throw new Error('Missing required file: '+f)});console.log('Build successful — all required files present.')\""
+  }
+}
